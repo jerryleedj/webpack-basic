@@ -19,3 +19,12 @@ npm i -D postcss autoprefixer postcss-loader
 
 npm i -D @babel/core @babel/preset-env @babel/plugin-transform-runtime
 npm i -D babel-loader
+
+=================================================================
+
+Netlify
+
+Basic build settings
+
+- Build command: npm run build
+- Publish directory: dist/
