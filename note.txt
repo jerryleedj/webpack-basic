@@ -1,0 +1,21 @@
+npm i -D webpack webpack-cli webpack-dev-server@next
+
+package.json
+
+"scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+},
+
+webpack.config.js 
+
+=================================================================
+
+npm i -D html-webpack-plugin
+npm i -D copy-webpack-plugin
+npm i -D css-loader style-loader
+npm i -D sass-loader sass
+npm i -D postcss autoprefixer postcss-loader
+
+npm i -D @babel/core @babel/preset-env @babel/plugin-transform-runtime
+npm i -D babel-loader
